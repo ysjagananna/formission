@@ -18,7 +18,8 @@ const Navbar: React.FC = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-2xl">
-              <img src='../../public/favi.png'/>
+              <img src='../../public/favi.png' alt='J'/>
+              
             </div>
             <div className="ml-2">
               <img src='../../public/logo.png' className='h-[25px] w-[100px]'/>
