@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { LogOut } from 'lucide-react';
+import textlogo from '../../public/logo.png'
+import Logo from '../../public/favi.png'
 
 const Navbar: React.FC = () => {
   const { isAuthenticated, isAdmin, logout } = useAuth();
@@ -18,11 +20,11 @@ const Navbar: React.FC = () => {
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
             <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-2xl">
-              <img src='../../public/favi.png' alt='J'/>
+              <img src={Logo} alt='J'/>
               
             </div>
             <div className="ml-2">
-              <img src='../../public/logo.png' className='h-[25px] w-[100px]'/>
+              <img src={textlogo} className='h-[25px] w-[100px]'/>
             </div>
           </Link>
         </div>

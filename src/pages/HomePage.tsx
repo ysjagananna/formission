@@ -11,14 +11,14 @@ import Footer from '../components/Footer';
 const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Stats />
       <AboutUs />
       <OurWork />
       <Analytics />
       <JoinForm />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
