@@ -1,4 +1,6 @@
 import React from 'react';
+import textlogo from '../../public/logo.png';
+import logo from '../../public/favi.png';
 
 const Footer: React.FC = () => {
   return (
@@ -7,10 +9,10 @@ const Footer: React.FC = () => {
         <div>
           <div className="flex items-center mb-4">
             <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-xl">
-               <img src='../../public/favi.png'/>
+               <img src={logo}/>
             </div>
             <div className="ml-2">
-              <img src='../../public/logo.png' className='h-[25px] w-[100px]'/>
+              <img src={textlogo} className='h-[25px] w-[100px]'/>
             </div>
           </div>
           <p>
